@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "pretty": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {}
+  },
+  "include": [
+    "src/",
+    "src/**/*.ts",
+    "src/*.ts",
+    "test/**/*.ts"
+, "src/index.ts"  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+  ]
+}
