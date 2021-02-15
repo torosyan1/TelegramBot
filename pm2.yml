@@ -1,0 +1,11 @@
+apps:
+  - name        : btc_change
+    interpreter : /bin/bash
+    script      : yarn
+    log_date_format : YYYY-MM-DD HH:mm:ss
+    args        : [start: src/index.ts]
+    env_prod:
+      NODE_ENV: prod
+    env_dev:
+      NODE_ENV: dev
+
